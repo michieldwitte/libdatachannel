@@ -36,4 +36,6 @@ You can now open the example at the web server URL [http://127.0.0.1:8080](http:
 
 You can generate H264 and Opus sample with *samples/generate_h264.py* and *samples/generate_opus.py* respectively. This require ffmpeg, python3 and kaitaistruct library to be installed. Use `-h`/`--help` to learn more about arguments.
 
+H264 samples are generated from *samples/candle.mp4*, e.g. `generate_h264.py -i candle.mp4 -o h264 -f 30 -m 900`.
+
 <b id="f1">1</b> Opus samples are generated from music downloaded at [bensound](https://www.bensound.com). [↩](#a1)
